@@ -9,6 +9,7 @@ apt-get update
 apt-get install -y curl
 apt-get install -y git
 apt-get install -y mercurial
+apt-get install -y ruby1.9.1-dev
 
 # Common database clients/libs
 apt-get install -y postgresql
@@ -24,7 +25,6 @@ apt-get install -y nodejs
 # Buildpack dependencies:
 
 # Ruby
-apt-get install -y ruby1.9.1-dev
 apt-get install -y rubygems
 update-alternatives --set ruby /usr/bin/ruby1.9.1
 update-alternatives --set gem /usr/bin/gem1.9.1
