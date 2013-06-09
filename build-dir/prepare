@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Prepares "stack" to run apps and the environment to run buildpacks
+# Prepares the "stack" to run apps and the environment to run buildpacks
 #
 
 apt-get update
@@ -14,6 +14,7 @@ apt-get install -y mercurial
 apt-get install -y postgresql
 apt-get install -y postgresql-server-dev-9.1
 apt-get install -y sqlite3
+apt-get install -y libsqlite-dev
 apt-get install -y mysql-client
 
 # Other common libraries
