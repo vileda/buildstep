@@ -12,6 +12,7 @@ apt-get install -y mercurial
 
 # Common database clients/libs
 apt-get install -y postgresql
+apt-get install -y postgresql-server-dev-9.1
 apt-get install -y sqlite3
 apt-get install -y mysql-client
 
