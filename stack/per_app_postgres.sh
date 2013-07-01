@@ -2,7 +2,7 @@
 set -e
 
 export APP_NAME=$1
-export PGHOST=$(< $HOME/predeploy.d/postgres_host)
+export PGHOST=localhost
 export PGUSER=admin
 
 if [ -f $HOME/$APP_NAME/DATABASE_URL ]; then
